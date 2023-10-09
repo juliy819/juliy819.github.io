@@ -1,1 +1,0 @@
-import{e as t}from"./index-46ecffbd.js";const r={getArticleList:e=>t({url:"/article/list",method:"get",params:e}),getArticle:e=>t({url:`/article/${e}`,method:"get"}),getArticleFeatured:()=>t({url:"/article/featured",method:"get"}),likeArticle:e=>t({url:`/article/${e}/like`,method:"post"})},l=r;export{l as a};

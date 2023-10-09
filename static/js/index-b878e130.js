@@ -1,1 +1,0 @@
-import{e as a}from"./index-46ecffbd.js";const e={getTagList:()=>a({url:"/tag/list",method:"get"}),getTagArticleList:t=>a({url:"/tag/article",method:"get",params:t}),countTagArticles:t=>a({url:"/tag/article/count",method:"get",params:t})},r=e;export{r as t};
