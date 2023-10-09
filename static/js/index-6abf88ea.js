@@ -1,0 +1,1 @@
+import{e}from"./index-46ecffbd.js";const l={getTalk:t=>e({url:`/talk/${t}`,method:"get"}),getTalkHomeList:()=>e({url:"/talk/listHome",method:"get"}),getTalkList:t=>e({url:"/talk/list",method:"get",params:t}),likeTalk:t=>e({url:`/talk/${t}/like`,method:"post"})},k=l;export{k as t};

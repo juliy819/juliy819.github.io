@@ -1,0 +1,1 @@
+import{e as t}from"./index-46ecffbd.js";const n={getRecentComments:()=>t({url:"comment/recent",method:"get"}),getCommentList:e=>t({url:"comment/list",method:"get",params:e}),getReplyList:(e,m)=>t({url:`comment/${e}/reply`,method:"get",params:m}),addComment:e=>t({url:"/comment",method:"post",data:e}),likeComment:e=>t({url:`/comment/${e}/like`,method:"post"})};export{n as c};
